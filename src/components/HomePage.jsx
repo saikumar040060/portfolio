@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   FaJava, FaAws, FaDocker, FaGithub, FaLinkedin,
   FaFileDownload, FaEye, FaExternalLinkAlt, FaCode,
-  FaLock, FaShoppingCart, FaChartBar, FaEnvelope, FaServer
+  FaLock, FaChartBar, FaEnvelope, FaServer
 } from 'react-icons/fa';
 import {
-  SiSpringboot, SiPostgresql, SiMysql, SiKafka,
+  SiSpringboot, SiPostgresql, SiMysql,
   SiRedis, SiKubernetes, SiMongodb
 } from 'react-icons/si';
 import { ThemeContext } from './ThemeContext';
@@ -38,7 +38,7 @@ const techStack = [
   { icon: <SiMysql size={40} />, name: 'MySQL' },
   { icon: <SiMongodb size={40} />, name: 'MongoDB' },
   { icon: <SiRedis size={40} />, name: 'Redis' },
-  { icon: <SiKafka size={40} />, name: 'Kafka' },
+  { icon: <FaServer size={40} />, name: 'Kafka' },
   { icon: <FaAws size={40} />, name: 'AWS' },
   { icon: <FaDocker size={40} />, name: 'Docker' },
   { icon: <SiKubernetes size={40} />, name: 'Kubernetes' },
